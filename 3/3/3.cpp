@@ -1,11 +1,21 @@
-#include<iostream>
-
+#include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-	cout << "Hello World" << endl;
+	string name;
+	cout << "Name: Vladlen, Rob" << endl;
+
+	cout << "Input name " << endl;
+
+	cin >> name;
+
+	if (name == "Vladlen") cout << "Hello Vladlen" << endl;
+	else if (name == "Rob") cout << "Hello Rob" << endl;
+	else cout << "Hello User" << endl;
 
 	system("pause");
 	return 0;
+
 }
