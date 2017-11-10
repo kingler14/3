@@ -12,7 +12,7 @@ int main()
 	cin >> name;
 
 	if (name == "Vladlen") cout << "Hello Vladlen" << endl;
-	else if (name == "Rob") cout << "Hello Rob" << endl;
+	else if (name == "rob") cout << "Hello rob" << endl;
 	else cout << "Hello User" << endl;
 
 	system("pause");
