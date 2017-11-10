@@ -13,6 +13,7 @@ int main()
 
 	if (name == "Vladlen") cout << "Hello Vladlen" << endl;
 	else if (name == "rob") cout << "Hello rob" << endl;
+	else if (name == "Nick") cout << "Hello Nick" << endl;
 	else cout << "Hello User" << endl;
 
 	system("pause");
